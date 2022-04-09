@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void UpdateAnimationState()
     {
-        if (dirX > 0f) 
+        if (dirX > 0f)
         {
             anim.SetBool("running", true);
             sprite.flipX = false;
